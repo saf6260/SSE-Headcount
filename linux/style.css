@@ -1,0 +1,27 @@
+* {
+ background: white;
+ color: black;
+}
+
+.center{
+  display:flex;
+  justify-content:center;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Ranga", cursive;
+}
+
+.warning {
+  font-size: 75px;
+  color: red; 
+  animation-name:alert;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alert {
+  from {background-color: black;}
+  to {background-color: white;}
+}
